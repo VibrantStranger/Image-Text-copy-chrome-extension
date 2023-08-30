@@ -1,0 +1,9 @@
+// background.js
+
+chrome.contextMenus.create({
+  title: "Extract Text from Image",
+  contexts: ["image"],
+  onclick: (info, tab) => {
+    chrome.tabs.sendMessage(tab.id, { action: "extractText" });
+  }
+});
