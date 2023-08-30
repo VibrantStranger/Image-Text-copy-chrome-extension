@@ -1,0 +1,5 @@
+Unchecked runtime.lastError: Extensions using event pages or Service Workers must pass an id parameter to chrome.contextMenus.create
+Context
+_generated_background_page.html
+Stack Trace
+_generated_background_page.html:0 (anonymous function)
